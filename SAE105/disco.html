@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/disco.css" rel="stylesheet" type="text/css">
+    <title>Discographie</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+<body>
+    <header>
+
+
+        <img src="ressource/logo.png" alt="logo">
+        <h2 class="title"><i>Discographie</i></h2>
+
+
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="bio.html">Biographie</a></li>
+            <li><a href="disco.html">Discographie</a></li>
+        </ul>
+
+    </nav>
+
+    <table>
+        <tr>
+            <td><p><b>1965</b></p></td>
+            <td><img class="img" src="ressource/vinyl_4.jpg" alt="Get Off Of My Cloud"></td>
+            <td><audio controls >
+                    <source src="ressource/Get_Off_Of_My_Cloud.mp4" type="audio/mp4">
+                </audio></td>
+        </tr>
+        <tr>
+            <td><p><b>1966</b></p></td>
+            <td><img class="img" src="ressource/vinyl_1.jpg" alt=""></td>
+            <td><audio controls >
+                    <source src="ressource/pib.mp4" type="audio/mp4">
+                </audio></td>
+        </tr>
+
+        <tr>
+            <td><p><b>1969</b></p></td>
+            <td><img class="img" src="ressource/vinyl_2.png" alt="Gimme shelter"></td>
+            <td><audio controls >
+                    <source src="ressource/Gimme_Shelter.mp4" type="audio/mp4">
+                </audio></td>
+        </tr>
+
+        <tr>
+            <td><p><b>1969</b></p></td>
+            <td><img class="img" src="ressource/vinyl_3.jpg" alt="you can't always get what you want"></td>
+            <td><audio controls >
+                    <source src="ressource/YCAGWYW.mp4" type="audio/mp4">
+                </audio></td>
+        </tr>
+
+
+
+    </table>
+
+<py-script>
+    def wallis(n):
+    pi = 2
+    for i in range(1,n):
+        pi *= 4 * i ** 2 / (4 * i ** 2 - 1)
+    return pi
+
+pi = wallis(100000)
+s = f"π est approximativement {pi:.3f}"
+print(s)
+</py-script>
+
+
+
+
+
+
+
+
+    <footer>
+        <nav>
+
+            <ul class="footer">
+                <li><a href="https://www.instagram.com/rollingstone/"><img class="ig" src="ressource/ig.png"
+                            alt="instagram"></a></li>
+                <li><a href="https://twitter.com/RollingStone?ref"><img class="ig" id="twitter"
+                            src="ressource/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.youtube.com/RollingStones"><img class="ig" src="ressource/ytb.png"
+                            alt="youtube"></a>
+                </li>
+                <li><a href="https://fr-fr.facebook.com/therollingstones/"><img class="ig" src="ressource/facebook.png"
+                            alt="facebook"></a></li>
+                <li><a href="https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"><img class="ig"
+                            src="ressource/spotify.png" alt="spotify"></a></li>
+            </ul>
+
+        </nav>
+    </footer>
+</body>
+
+</html>

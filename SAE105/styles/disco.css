@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.nav {
+    padding-top: 10;
+      list-style-type: none;
+      margin: auto;
+      margin-top: 0px;
+      padding: 15;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      margin-bottom: 33px;
+    }
+
+
+    li a {
+      text-align: center;
+      margin: auto;
+      display: block;
+      color: #fff9fa;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      background-color: #851414;
+      color: #fff9fa;
+  }
+  
+  li {
+      display: inline-block;
+      text-align: center;
+      margin: auto;
+  }
+  li:last-child {
+      border-right: none;
+    }
+
+.img {
+    display: flex;
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #851414;
+    margin: right;
+}
+body{
+    background-color: #fff9fa;
+    margin-right: 0px;
+  height: 100%;
+ 
+  margin-bottom:0px;
+ 
+  margin-top:0px;
+  margin: auto;
+  }
+  .footer {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 0px;
+    overflow: hidden;
+    background-color: #000000;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    margin-top: 79px;
+    text-align: center;
+  }
+  footer{
+    height:100px;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 0; left: 0; right: 0;
+    margin-top: 0px;
+    
+  }
+  img{
+    margin-left: 0 ;
+    width: 150px;
+  }
+  .title{
+    margin-top: -130px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-right: 17px;
+  }
+  .ig{
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  p{
+font-size: 50px;
+margin-right: 40px;
+  }
